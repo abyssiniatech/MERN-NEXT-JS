@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<hea>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>day 1</title>
     <link rel="stylesheet" href="index.css">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-</head>
-<body>
+</hea
+d>
+<body class="bg-gray-100 text-gray-800">
+     <div class="bg-white text-black min-h-screen flex flex-col">
+     <header class="bg-gray-200 p-4 mb-4">
+    <h1 class="text-3xl font-bold">My Portfolio</h1>
+    <nav class="mt-2">
+      <ul class="bg-blue-500 p-4 text-white flex space-x-4">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<div class="flex justify-center items-center flex-col text-center  h-screen">
-         <h1 class="text-3xl font-bold">Html form</h1>
-             <form  class="bg-white shadow-md rounded px-18 pt-6 pb-8 mb-4 mt-4">
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
-                            Username
-                        </label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
-                    </div>
-                    <div class="mb-6">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
-                            Password
-                        </label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
-                    </div>
-                         <div class="mb-4">
-                                <label class="block text-gray-700 text-sm font-bold mb-2" for="rememberMe">
-                                    Remember Me
-                                </label>
-                        <input class="mr-2 leading-tight" type="checkbox" id="rememberMe">
-                         </div>
-                         <!-- text input -->
-                          <div class="mb-4">
-                            <label class="block text-gray-700 text-sm font-bold mb-2" for="textInput">
-                                Text Input
-                                </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="textInput" type="text" placeholder="Enter text here">
-          zz                </div>
-                    <div class="flex items>-center justify-between">
-                        <button class="bg-blue-500 px-4 py-2 rounded hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                            Sign In
-                        </button>
-             </form>
-</div>
-    
+  <main class="mb-4">
+    <section id="about">
+      <h2 class="text-2xl font-semibold">About Me</h2>
+      <p class="mt-2">Web developer passionate about building interactive websites.</p>
+    </section>
+
+    <section id="projects">
+      <h2 class="text-2xl font-semibold">Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p class="mt-2">Designed a personal portfolio using HTML, CSS, and JS.</p>
+      </article>
+    </section>
+  </main>
+
+  <aside>
+    <h3 class="text-xl font-semibold">Contact Info</h3>
+    <p>Email: example@mail.com</p>
+  </aside>
+
+  <footer class="bg-gray-200 p-4 mt-4 text-center">
+    <p class="text-gray-600">&copy; 2025 My Portfolio</p>
+  </footer>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
