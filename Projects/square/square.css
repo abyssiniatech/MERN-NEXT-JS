@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+body{
+     background-color:gray;
+
+}
+.container{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     height:100vh;
+     gap:10px;
+    }
+    .square{
+    border-radius:5px;
+    width:100px;
+    height:80px;
+    animation: rotate 0.3s infinite ;
+}
+
+.square1{
+    background-color:green;
+}
+.square2{
+    background-color:red;
+}
+.square3{
+    background-color:yellow;
+}
+.square4{
+    background-color:blue;
+}
+.name{
+    animation:rotate 1s infinite;
+    color:blue;
+    font-size:1.5 em;
+}
+
+@keyframes rotate{
+    from{
+          transform:rotate(45deg);
+    }
+    to{
+       transform:rotate(-45deg);
+     
+    }
+}

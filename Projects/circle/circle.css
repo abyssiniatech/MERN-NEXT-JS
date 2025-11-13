@@ -1,0 +1,39 @@
+*{
+    padding:none;
+    margin:none;
+
+}
+body{
+    background-color:gray;
+    
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    height:100vh;
+    
+    
+}
+.circle{
+    animation:pulse infinite 1s;
+   animation:rotate 1s
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:blue;
+    text-align:center;
+
+}
+
+@keyframes pulse{
+    from{
+background-color:pink;
+
+    }
+    to{
+        background-color:yellow;
+    }
+}
